@@ -4,4 +4,18 @@ namespace Chaiqou\CurrencyConversions;
 
 class CurrencyConversionsClass
 {
+    public static function toGel(float $usd): self
+    {
+        return new static($usd);
+    }
+
+    public function __construct(protected float $usd)
+    {
+
+    }
+
+    public function convertToGEL(): float
+    {
+        return $this->usd * 2.65;
+    }
 }
