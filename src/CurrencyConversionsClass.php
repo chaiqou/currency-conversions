@@ -4,7 +4,7 @@ namespace Chaiqou\CurrencyConversions;
 
 class CurrencyConversionsClass
 {
-    public static function toGel(float $usd): self
+    public static function currency(float $usd): self
     {
         return new static($usd);
     }
