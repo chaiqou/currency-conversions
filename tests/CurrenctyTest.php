@@ -9,7 +9,6 @@ it('can convert usd to gel', function () {
 
 });
 
-
 it('can convert usd to eur', function () {
     $currency = CurrencyConversionsClass::currency(100)->convertToEUR();
 
