@@ -18,4 +18,9 @@ class CurrencyConversionsClass
     {
         return $this->usd * 2.65;
     }
+
+    public function convertToEUR(): float
+    {
+        return $this->usd * 0.85;
+    }
 }
